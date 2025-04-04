@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -34,69 +50,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Product.cs",
-              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Model\\Product.cs",
-              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Product.cs",
-              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Model\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:01:34.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\appsettings.json",
-              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\appsettings.json",
-              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\appsettings.json",
-              "RelativeToolTip": "Nguyenxuanbac_2122110545\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-28T07:42:48.192Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:02:29.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Model\\Category.cs",
+              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Category.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Model\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T05:56:46.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Program.cs",
               "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Program.cs",
               "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Program.cs",
               "RelativeToolTip": "Nguyenxuanbac_2122110545\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T05:49:24.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T05:49:24.119Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Model\\Product.cs",
+              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Product.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Model\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:01:34.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Data\\AppDbContext.cs",
               "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Nguyenxuanbac_2122110545\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T06:58:04.111Z"
+              "WhenOpened": "2025-03-28T06:58:04.111Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:02:08.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\appsettings.json",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\appsettings.json",
+              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\appsettings.json",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-28T07:42:48.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T05:59:36.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\WeatherForecast.cs",
@@ -108,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Nguyenxuanbac_2122110545.http",
               "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.http",
               "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.http",
