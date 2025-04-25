@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\wwwroot\\uploads\\avatars\\2b0f94df-9456-4e69-8dc5-c1c6019d835c_Screenshot 2024-12-07 224108.png",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\2b0f94df-9456-4e69-8dc5-c1c6019d835c_Screenshot 2024-12-07 224108.png"
+    },
+    {
+      "Id": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\wwwroot\\uploads\\avatars\\343e4808-243a-4fdc-84f4-6d052005107e_iphone-16-xanh-mong.png",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\343e4808-243a-4fdc-84f4-6d052005107e_iphone-16-xanh-mong.png"
+    },
+    {
+      "Id": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\wwwroot\\uploads\\avatars\\60c63c67-c3c2-4c6b-ae50-54d3d6d8d3f1_Screenshot 2024-12-07 224108.png",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\60c63c67-c3c2-4c6b-ae50-54d3d6d8d3f1_Screenshot 2024-12-07 224108.png"
+    },
+    {
+      "Id": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\wwwroot\\uploads\\avatars\\c5a0b2b4-07e1-48bb-a632-20ce0c9eba71_Screenshot 2024-12-07 224108.png",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\c5a0b2b4-07e1-48bb-a632-20ce0c9eba71_Screenshot 2024-12-07 224108.png"
+    },
+    {
+      "Id": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\wwwroot\\uploads\\avatars\\d000b05b-93e6-4352-a81b-2dd8a626ba99_Screenshot 2024-12-07 224108.png",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\d000b05b-93e6-4352-a81b-2dd8a626ba99_Screenshot 2024-12-07 224108.png"
+    },
+    {
+      "Id": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\wwwroot\\uploads\\banners\\866effd2-9345-4a80-8137-3267a3fb5802_iphone-15-pro-max-black.jpg",
+      "PackagePath": "staticwebassets\\uploads\\banners\\866effd2-9345-4a80-8137-3267a3fb5802_iphone-15-pro-max-black.jpg"
+    },
+    {
+      "Id": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\wwwroot\\uploads\\banners\\9062d67a-f281-4577-8b86-d0ab46106dc5_iphone-16e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\banners\\9062d67a-f281-4577-8b86-d0ab46106dc5_iphone-16e.jpg"
+    },
+    {
+      "Id": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\wwwroot\\uploads\\banners\\d3ceba23-d974-47a4-9d9a-fb684a89bb1e_iphone-16-xanh-mong.png",
+      "PackagePath": "staticwebassets\\uploads\\banners\\d3ceba23-d974-47a4-9d9a-fb684a89bb1e_iphone-16-xanh-mong.png"
+    },
+    {
+      "Id": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\wwwroot\\uploads\\brands\\1cf617ce-1373-4b86-96b6-18f3c1b4239e_iphone-16e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\brands\\1cf617ce-1373-4b86-96b6-18f3c1b4239e_iphone-16e.jpg"
+    },
+    {
+      "Id": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\wwwroot\\uploads\\categories\\a9d60d08-34a9-4116-b480-ef02f72a906b_iphone-15-plus-xanh-.jpg",
+      "PackagePath": "staticwebassets\\uploads\\categories\\a9d60d08-34a9-4116-b480-ef02f72a906b_iphone-15-plus-xanh-.jpg"
+    },
+    {
+      "Id": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\wwwroot\\uploads\\products\\ca79a485-aee0-45b9-a384-d90e89d777ed_iphone-15-plus-xanh-.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\ca79a485-aee0-45b9-a384-d90e89d777ed_iphone-15-plus-xanh-.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Nguyenxuanbac_2122110545.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Nguyenxuanbac_2122110545.props",
+      "PackagePath": "build\\Nguyenxuanbac_2122110545.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Nguyenxuanbac_2122110545.props",
+      "PackagePath": "buildMultiTargeting\\Nguyenxuanbac_2122110545.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Nguyenxuanbac_2122110545.props",
+      "PackagePath": "buildTransitive\\Nguyenxuanbac_2122110545.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

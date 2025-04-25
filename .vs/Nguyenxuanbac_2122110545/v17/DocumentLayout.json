@@ -1,45 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\",
+  "WorkspaceRootPath": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\topiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\topiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\oderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\oderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\model\\banner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\model\\banner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\model\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\model\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\model\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\model\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\web_banhang\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|d:\\asp.net.212210545\\nguyenxuanbac_2122110545\\nguyenxuanbac_2122110545\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3186B997-F59A-473D-B2C9-4D2DEF1B7804}|Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj|solutionrelative:nguyenxuanbac_2122110545\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,124 +114,304 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T06:24:22.863Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BannerController.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\BannerController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\BannerController.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\BannerController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\BannerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:50:09.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T06:58:04.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\PostController.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\PostController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T06:24:40.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Model\\User.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\User.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:51:22.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Model\\Product.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Product.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Model\\Product.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:01:34.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TopicController.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\TopicController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\TopicController.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\TopicController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\TopicController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T06:24:51.662Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Title": "FileServices.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Services\\FileServices.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Services\\FileServices.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Services\\FileServices.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Services\\FileServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T06:02:29.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T09:02:53.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:48:44.467Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Category.cs",
-              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Model\\Category.cs",
-              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Category.cs",
-              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Model\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAuwNEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T05:56:46.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T08:56:00.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\ContactController.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T06:24:05.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Banner.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Banner.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Model\\Banner.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Banner.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Model\\Banner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:52:20.121Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Program.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Program.cs",
               "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Program.cs",
-              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Program.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Program.cs",
               "RelativeToolTip": "Nguyenxuanbac_2122110545\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAUwHwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T05:49:24.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Product.cs",
-              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Model\\Product.cs",
-              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Product.cs",
-              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Model\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Model\\Category.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Category.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Model\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:01:34.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T05:56:46.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\BrandController.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAmwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T06:58:04.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T06:02:08.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T08:50:53.227Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:02:08.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OderDetailController.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\OderDetailController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\OderDetailController.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\OderDetailController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\OderDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:49:49.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:49:02.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA5wA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:02:29.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\appsettings.json",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\appsettings.json",
               "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\appsettings.json",
-              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\appsettings.json",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\appsettings.json",
               "RelativeToolTip": "Nguyenxuanbac_2122110545\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-28T07:42:48.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwAwAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Model\\OrderDetail.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\OrderDetail.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Model\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T05:59:36.33Z"
+              "WhenOpened": "2025-04-18T08:51:57.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Order.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Model\\Order.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Order.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Model\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:51:38.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Nguyenxuanbac_2122110545.csproj",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-18T09:02:05.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Brand.cs",
+              "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Model\\Brand.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Model\\Brand.cs",
+              "RelativeToolTip": "Nguyenxuanbac_2122110545\\Model\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:52:09.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\WeatherForecast.cs",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\WeatherForecast.cs",
-              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\WeatherForecast.cs",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\WeatherForecast.cs",
               "RelativeToolTip": "Nguyenxuanbac_2122110545\\WeatherForecast.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAQwAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,11 +419,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 24,
               "Title": "Nguyenxuanbac_2122110545.http",
-              "DocumentMoniker": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.http",
+              "DocumentMoniker": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.http",
               "RelativeDocumentMoniker": "Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.http",
-              "ToolTip": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.http",
+              "ToolTip": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.http",
               "RelativeToolTip": "Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",

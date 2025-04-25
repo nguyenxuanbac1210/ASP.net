@@ -1,80 +1,190 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Nguyenxuanbac_2122110545.Data;
 using Nguyenxuanbac_2122110545.Model;
+using Nguyenxuanbac_2122110545.Services;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Nguyenxuanbac_2122110545.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        // Khởi tạo danh sách rỗng
-        private static List<Category> _categories = new List<Category>();
+        private readonly AppDbContext _context;
+        private readonly IFileService _fileService;
 
-        // GET: api/Category - Lấy tất cả category
-        [HttpGet]
-        public ActionResult<IEnumerable<Category>> GetAll()
+        public CategoryController(AppDbContext context, IFileService fileService)
         {
-            return Ok(_categories);
+            _context = context;
+            _fileService = fileService;
         }
 
-        // GET api/Category/5 - Lấy category theo ID
-        [HttpGet("{id}")]
-        public ActionResult<Category> GetById(int id)
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Category>>> GetAll()
         {
-            var category = _categories.FirstOrDefault(c => c.Id == id);
+            return await _context.Categories.ToListAsync();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<CategoryResponse>> GetById(int id)
+        {
+            var category = await _context.Categories.FindAsync(id);
+
             if (category == null)
             {
                 return NotFound("Không tìm thấy category với ID này");
             }
-            return Ok(category);
+
+            return new CategoryResponse
+            {
+                Id = category.Id,
+                Name = category.Name,
+                Slug = category.Slug,
+                Parent_Id = category.Parent_Id,
+                Sort_Order = category.Sort_Order,
+                ImageUrl = _fileService.GetFileUrl(category.Image, "categories"),
+                Description = category.Description,
+                CreateAt = category.CreateAt,
+                Status = category.Status
+            };
         }
 
-        // POST api/Category - Thêm category mới
         [HttpPost]
-        public ActionResult<Category> Create([FromBody] Category newCategory)
+        public async Task<ActionResult<Category>> Create([FromForm] CategoryCreateRequest request)
         {
-            // Xử lý trường hợp danh sách rỗng
-            newCategory.Id = _categories.Any() ? _categories.Max(c => c.Id) + 1 : 1;
-            _categories.Add(newCategory);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
-            // Trả về kết quả với status 201 Created
+            var imageName = await _fileService.SaveFileAsync(request.Image, "categories");
+
+            var newCategory = new Category
+            {
+                Name = request.Name,
+                Slug = request.Slug,
+                Parent_Id = request.Parent_Id,
+                Sort_Order = request.Sort_Order,
+                Image = imageName,
+                Description = request.Description,
+                CreateAt = DateTime.UtcNow,
+                UpdateAt = DateTime.UtcNow,
+                CreateBy = "System",
+                UpdateBy = "System",
+                Status = true
+            };
+
+            _context.Categories.Add(newCategory);
+            await _context.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetById), new { id = newCategory.Id }, newCategory);
         }
 
-        // PUT api/Category/5 - Cập nhật category
         [HttpPut("{id}")]
-        public IActionResult Update(int id, [FromBody] Category updatedCategory)
+        public async Task<IActionResult> Update(int id, [FromForm] CategoryUpdateRequest request)
         {
-            var existingCategory = _categories.FirstOrDefault(c => c.Id == id);
+            if (id != request.Id)
+            {
+                return BadRequest();
+            }
+
+            var existingCategory = await _context.Categories.FindAsync(id);
             if (existingCategory == null)
             {
                 return NotFound("Không tìm thấy category để cập nhật");
             }
 
-            // Cập nhật thông tin
-            existingCategory.Name = updatedCategory.Name;
-            existingCategory.Image = updatedCategory.Image;
+            // Xử lý ảnh mới nếu có
+            if (request.Image != null)
+            {
+                // Xóa ảnh cũ
+                _fileService.DeleteFile(existingCategory.Image, "categories");
 
-            return NoContent(); // Status 204 No Content
+                // Lưu ảnh mới
+                existingCategory.Image = await _fileService.SaveFileAsync(request.Image, "categories");
+            }
+
+            existingCategory.Name = request.Name;
+            existingCategory.Slug = request.Slug;
+            existingCategory.Parent_Id = request.Parent_Id;
+            existingCategory.Sort_Order = request.Sort_Order;
+            existingCategory.Description = request.Description;
+            existingCategory.UpdateAt = DateTime.UtcNow;
+
+            _context.Entry(existingCategory).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
-        // DELETE api/Category/5 - Xóa category
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        [EnableCors("AllowAll")]
+        public async Task<IActionResult> DeleteCategory(int id)
         {
-            var category = _categories.FirstOrDefault(c => c.Id == id);
+            var category = await _context.Categories.FindAsync(id);
             if (category == null)
             {
                 return NotFound("Không tìm thấy category để xóa");
             }
 
-            _categories.Remove(category);
-            return NoContent(); // Status 204 No Content
+            // Xóa ảnh
+            _fileService.DeleteFile(category.Image, "categories");
+
+            _context.Categories.Remove(category);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool CategoryExists(int id)
+        {
+            return _context.Categories.Any(e => e.Id == id);
+        }
+        public class CategoryCreateRequest
+        {
+            [Required]
+            public string Name { get; set; }
+            public string Slug { get; set; }
+            public int Parent_Id { get; set; }
+            public int Sort_Order { get; set; }
+
+            [Required(ErrorMessage = "Image is required")]
+            [DataType(DataType.Upload)]
+            //[MaxFileSize(5 * 1024 * 1024)] // 5MB
+            //[AllowedExtensions(new string[] { ".jpg", ".jpeg", ".png" })]
+            public IFormFile Image { get; set; }
+            public string Description { get; set; }
+        }
+
+        public class CategoryUpdateRequest
+        {
+            public int Id { get; set; }
+            [Required]
+            public string Name { get; set; }
+            public string Slug { get; set; }
+            public int Parent_Id { get; set; }
+            public int Sort_Order { get; set; }
+            public IFormFile? Image { get; set; }
+            public string Description { get; set; }
+        }
+        public class CategoryResponse
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+            public string Slug { get; set; }
+            public int Parent_Id { get; set; }
+            public int Sort_Order { get; set; }
+            public string ImageUrl { get; set; }
+            public string Description { get; set; }
+            public DateTime CreateAt { get; set; }
+            public bool Status { get; set; }
         }
     }
 }

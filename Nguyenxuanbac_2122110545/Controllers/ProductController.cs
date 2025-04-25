@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Nguyenxuanbac_2122110545.Data;
 using Nguyenxuanbac_2122110545.Model;
+using Nguyenxuanbac_2122110545.Services;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -10,77 +13,179 @@ namespace Nguyenxuanbac_2122110545.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProductController : ControllerBase
     {
-        // Tạo danh sách product tạm thời
-        private static List<Product> _products = new List<Product>
-        {
-            new Product { Id = 1, Name = "Laptop", Image = "laptop.png", Price = 19999999, Qty = 10 },
-            new Product { Id = 2, Name = "Áo thun", Image = "aothun.png", Price = 150000, Qty = 50 }
-        };
+        private readonly AppDbContext _context;
+        private readonly IFileService _fileService;
 
-        // GET: api/Product - Lấy tất cả product
-        [HttpGet]
-        public ActionResult<IEnumerable<Product>> GetAll()
+        public ProductController(AppDbContext context, IFileService fileService)
         {
-            return Ok(_products);
+            _context = context;
+            _fileService = fileService;
         }
 
-        // GET api/Product/5 - Lấy product theo ID
-        [HttpGet("{id}")]
-        public ActionResult<Product> GetById(int id)
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Product>>> GetAll()
         {
-            var product = _products.FirstOrDefault(p => p.Id == id);
+            return await _context.Products.ToListAsync();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Product>> GetById(int id)
+        {
+            var product = await _context.Products.FindAsync(id);
+
             if (product == null)
             {
                 return NotFound("Không tìm thấy sản phẩm với ID này");
             }
-            return Ok(product);
+
+            return product;
         }
 
-        // POST api/Product - Thêm product mới
         [HttpPost]
-        public ActionResult<Product> Create([FromBody] Product newProduct)
+        public async Task<ActionResult<Product>> Create([FromForm] ProductCreateRequest request)
         {
-            // Tạo ID mới
-            newProduct.Id = _products.Max(p => p.Id) + 1;
-            _products.Add(newProduct);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
-            // Trả về kết quả với status 201 Created
+            var imageName = await _fileService.SaveFileAsync(request.Image, "products");
+
+            var newProduct = new Product
+            {
+                CategoryId = request.CategoryId,
+                Name = request.Name,
+                Slug = request.Slug,
+                Description = request.Description,
+                Content = request.Content,
+                Image = imageName,
+                Price = request.Price,
+                SalePrice = request.SalePrice,
+                Qty = request.Qty,
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow,
+                CreatedBy = "System",
+                Status = true
+            };
+
+            _context.Products.Add(newProduct);
+            await _context.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetById), new { id = newProduct.Id }, newProduct);
         }
 
-        // PUT api/Product/5 - Cập nhật product
         [HttpPut("{id}")]
-        public IActionResult Update(int id, [FromBody] Product updatedProduct)
+        public async Task<IActionResult> Update(int id, [FromForm] ProductUpdateRequest request)
         {
-            var existingProduct = _products.FirstOrDefault(p => p.Id == id);
+            if (id != request.Id)
+            {
+                return BadRequest();
+            }
+
+            var existingProduct = await _context.Products.FindAsync(id);
             if (existingProduct == null)
             {
                 return NotFound("Không tìm thấy sản phẩm để cập nhật");
             }
 
-            // Cập nhật thông tin
-            existingProduct.Name = updatedProduct.Name;
-            existingProduct.Image = updatedProduct.Image;
-            existingProduct.Price = updatedProduct.Price;
-            existingProduct.Qty = updatedProduct.Qty;
+            // Xử lý ảnh mới nếu có
+            if (request.Image != null)
+            {
+                // Xóa ảnh cũ
+                _fileService.DeleteFile(existingProduct.Image, "products");
 
-            return NoContent(); // Status 204 No Content
+                // Lưu ảnh mới
+                existingProduct.Image = await _fileService.SaveFileAsync(request.Image, "products");
+            }
+
+            existingProduct.CategoryId = request.CategoryId;
+            existingProduct.Name = request.Name;
+            existingProduct.Slug = request.Slug;
+            existingProduct.Description = request.Description;
+            existingProduct.Content = request.Content;
+            existingProduct.Price = request.Price;
+            existingProduct.SalePrice = request.SalePrice;
+            existingProduct.Qty = request.Qty;
+            existingProduct.UpdatedAt = DateTime.UtcNow;
+
+            _context.Entry(existingProduct).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
-        // DELETE api/Product/5 - Xóa product
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var product = _products.FirstOrDefault(p => p.Id == id);
+            var product = await _context.Products.FindAsync(id);
             if (product == null)
             {
                 return NotFound("Không tìm thấy sản phẩm để xóa");
             }
 
-            _products.Remove(product);
-            return NoContent(); // Status 204 No Content
+            // Xóa ảnh
+            _fileService.DeleteFile(product.Image, "products");
+
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        [HttpGet("bycategory/{categoryId}")]
+        public async Task<ActionResult<IEnumerable<Product>>> GetByCategoryId(int categoryId)
+        {
+            var products = await _context.Products
+                .Where(p => p.CategoryId == categoryId)
+                .ToListAsync();
+
+            if (!products.Any())
+            {
+                return NotFound("Không tìm thấy sản phẩm nào cho danh mục này");
+            }
+
+            return products;
+        }
+
+        private bool ProductExists(int id)
+        {
+            return _context.Products.Any(e => e.Id == id);
+        }
+        public class ProductCreateRequest
+        {
+            [Required]
+            public int CategoryId { get; set; }
+            [Required]
+            public string Name { get; set; }
+            public string Slug { get; set; }
+            public string Description { get; set; }
+            public string Content { get; set; }
+            [Required]
+            public IFormFile Image { get; set; }
+            [Required]
+            public double Price { get; set; }
+            public double SalePrice { get; set; }
+            public int Qty { get; set; }
+        }
+
+        public class ProductUpdateRequest
+        {
+            public int Id { get; set; }
+            [Required]
+            public int CategoryId { get; set; }
+            [Required]
+            public string Name { get; set; }
+            public string Slug { get; set; }
+            public string Description { get; set; }
+            public string Content { get; set; }
+            public IFormFile? Image { get; set; }
+            [Required]
+            public double Price { get; set; }
+            public double SalePrice { get; set; }
+            public int Qty { get; set; }
         }
     }
 }

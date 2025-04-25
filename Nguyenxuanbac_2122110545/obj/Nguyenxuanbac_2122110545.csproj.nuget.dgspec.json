@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj": {}
+    "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj": {}
   },
   "projects": {
-    "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj": {
+    "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj",
+        "projectUniqueName": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj",
         "projectName": "Nguyenxuanbac_2122110545",
-        "projectPath": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj",
+        "projectPath": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545.csproj",
         "packagesPath": "C:\\Users\\Xuan Bac\\.nuget\\packages\\",
-        "outputPath": "D:\\web_banhang\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\obj\\",
+        "outputPath": "D:\\Asp.net.212210545\\Nguyenxuanbac_2122110545\\Nguyenxuanbac_2122110545\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Xuan Bac\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.3, )"
